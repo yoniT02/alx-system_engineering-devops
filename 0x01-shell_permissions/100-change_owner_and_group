@@ -1,2 +1,2 @@
 #!/bin/bash
-sudo vincent chgrp -R . 
+chown master:staff vincent
