@@ -1,0 +1,2 @@
+#!/bin/bash
+find -n +2 | cut -c1 | sort | unique -c | sort -nr | head -11 | tr -s ' ' | cut -d | -f3
